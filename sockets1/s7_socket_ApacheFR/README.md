@@ -1,0 +1,3 @@
+### ⚠️ Nota importante de ejecución (Mini Apache)
+El código de `MiniApache.java` utiliza rutas relativas para leer el archivo de configuración y servir la web. Dependiendo del IDE (NetBeans, Eclipse, etc.) o si se ejecuta desde terminal, el directorio base puede variar. 
+Si al arrancar el servidor aparece el aviso *"server.conf no encontrado"*, asegúrate de que el archivo `server.conf` y la carpeta `htdocs` estén situados directamente en la carpeta raíz desde donde se está ejecutando el proyecto (o modifica la ruta en el código para que apunte a la subcarpeta correspondiente, como `src/tu_paquete/`).
